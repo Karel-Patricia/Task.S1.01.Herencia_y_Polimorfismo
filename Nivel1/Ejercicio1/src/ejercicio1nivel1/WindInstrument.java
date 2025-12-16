@@ -16,3 +16,4 @@ public class WindInstrument extends Instrument {
         return "WindInstrument{}" + super.toString();
     }
 }
+

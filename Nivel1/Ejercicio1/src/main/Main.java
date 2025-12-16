@@ -6,6 +6,7 @@ import ejercicio1nivel1.StringInstrument;
 import ejercicio1nivel1.WindInstrument;
 
 public class Main {
+
     public static void main(String[] args) {
         Instrument wind = new WindInstrument("Flute", 200);
         Instrument string = new StringInstrument("Guitar", 500);
@@ -14,6 +15,6 @@ public class Main {
         wind.play();
         string.play();
         percussion.play();
-
     }
 }
+
