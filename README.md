@@ -14,7 +14,7 @@ Ejecución abra el proyecto en IntelliJ IDEA o Eclipse, compile y ejecute el mé
 
 IntelliJ IDEA (imported and modified projects) Java 25 Git & GitHub
 
-### Ejercicio 1
+### Ejercicio 1 Nivel 1
 
 Se trata de diseñar un programa para manejar instrumentos musicales de un grupo de música. En este grupo, existen tres tipos de instrumentos:
 * Instrumentos de viento
@@ -22,7 +22,7 @@ Se trata de diseñar un programa para manejar instrumentos musicales de un grupo
 * Instrumentos de percusión
 Todos estos instrumentos tienen dos características en común: un nombre y un precio . Además, todos pueden tocarse , pero lo hacen de formas diferentes
 
-### Ejercicio 2
+### Ejercicio 2 Nivel 1
 
 Crear una clase que represente un coche con algunas particularidades que te permitirán entender cómo funciona la memoria y la inicialización en Java.
 
@@ -44,4 +44,10 @@ Algunas conclusiones:
 - Los atributos final garantizan inmutabilidad.
 - La combinación de static y final se usa para constantes.
 - Los atributos no estáticos pertenecen a cada instancia
+
+### Ejercicio 1 Nivel 2
+
+Smartphone con múltiples funcionalidades
+
+El objetivo de este ejercicio es combinar herencia de clases con la implementación de interfaces para crear objetos más complejos.
 
