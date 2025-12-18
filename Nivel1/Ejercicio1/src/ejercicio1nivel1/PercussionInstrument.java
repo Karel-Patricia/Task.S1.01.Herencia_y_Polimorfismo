@@ -11,6 +11,10 @@ public class PercussionInstrument extends Instrument {
         System.out.println("Està sonant un instrument de percussió");
     }
 
+    public static void save() {
+        System.out.println("s'està guardant l'instrument");
+    }
+
     @Override
     public String toString() {
         return "PercussionInstrument{}" + super.toString();

@@ -1,8 +1,8 @@
 package ejercicio1nivel1;
 
 public abstract class Instrument {
-    protected String name;
-    protected int price;
+    private String name;//
+    private int price;
 
     public Instrument(String name, int price) {
         this.name = name;

@@ -3,30 +3,24 @@ package main;
 import ejercicio2nivel1.Car;
 
 public class Main {
-    static void main(String[] args) {
 
-        //Muestra valores iniciales
-        System.out.println("brand : " + Car.brand);
-        System.out.println("model : " + Car.model);
+     public static void main(String[] args) {
 
-        //Dos coches con distinta potencia
         Car car1 = new Car(100);
         Car car2 = new Car(140);
 
-        System.out.println("Potencia car1: " + car1.power);
-        System.out.println("Potencia car2: " + car2.power);
+        System.out.println();
+        System.out.println(car1.toString());
 
-        //Cambio de modelo
-        Car.model = "Princes";
-
-        System.out.println("Modelo después del cambio:");
-        System.out.println("Modelo car1: " + Car.model);
-        System.out.println("Modelo car2: " + Car.model);
-
+        car1.accelerate();
 
         Car.brake();
-        car1.accelerate();
-        car2.accelerate();
+
+        Car.setModel("Princes");
+        System.out.println();
+
+        System.out.println(car1.toString());
+        System.out.println(car2.toString());
 
     }
 }
