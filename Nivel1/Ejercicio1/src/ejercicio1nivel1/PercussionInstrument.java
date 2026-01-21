@@ -2,6 +2,10 @@ package ejercicio1nivel1;
 
 public class PercussionInstrument extends Instrument {
 
+    static {
+        System.out.println("La classe PercussionInstrument s'ha carregat");
+    }
+
     public PercussionInstrument(String name, int price) {
         super(name, price);
     }

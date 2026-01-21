@@ -2,6 +2,10 @@ package ejercicio1nivel1;
 
 public class WindInstrument extends Instrument {
 
+    static {
+        System.out.println("La classe WindInstrument s'ha carregat");
+    }
+
     public WindInstrument(String name, int price) {
         super(name, price);
     }
